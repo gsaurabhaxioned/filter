@@ -117,6 +117,7 @@ header {
   display: flex;
   padding: 40px 0;
   justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
 }
 header a {
   color: #ffffff;
@@ -152,7 +153,40 @@ header h1 {
 /*=================================
   main styling starts here
 =================================*/
+/* banner styling starts here  */
 
+.banner {
+  width: 100%;
+  padding: 20px 0;
+}
+.banner-menus ul {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+.banner-menus ul li {
+font-size: 12px;
+padding: 8px 10px;
+text-align: left;
+}
+.banner-menus ul li a {
+  color: #ffffff;
+}
+.banner-menus ul li:hover {
+  background-color: #8FD0A6;
+}
+.photo-section {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  flex-basis: 25%;
+}
+
+/* banner styling ends here  */
 
 
 
