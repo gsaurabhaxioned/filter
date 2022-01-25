@@ -103,13 +103,22 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
 
-
-
-
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  flex-basis: 50%;
+}
+.header-menus {
+  flex-basis: 50%;
+}
 
 
 /*=================================
