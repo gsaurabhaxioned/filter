@@ -100,8 +100,12 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 75%; 
   margin: 0 auto;
+}
+/* for container  */
+.container {
+  background-color: #000000;
 }
 
 /*=================================
@@ -111,14 +115,34 @@ li {
 header {
   width: 100%;
   display: flex;
+  padding: 40px 0;
   justify-content: space-between;
+}
+header a {
+  color: #ffffff;
 }
 header h1 {
   flex-basis: 50%;
+  font-weight: bold;
+  font-size: 37px;
 }
 .header-menus {
-  flex-basis: 50%;
+  flex-basis: 46%;
 }
+.header-menus ul {
+  width: 100%;
+  display: flex;
+}
+.header-menus ul li {
+  flex-basis: 20%;
+  padding:10px 5px;
+  text-align: center;
+  font-size: 13px;
+}
+.header-menus ul li a {
+  letter-spacing: 3px;
+}
+
 
 
 /*=================================
