@@ -228,8 +228,8 @@ footer {
   font-size: 11px;
   letter-spacing: 1px;
 }
-.text-widget-content:nth-child(2) {
-  margin-top: 15px;
+.para-gap {
+  margin-top: 20px;
 }
 .recent-posts {
   display: flex;
