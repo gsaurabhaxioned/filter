@@ -100,6 +100,7 @@ li {
 /* for font styling  */
 .font-faint {
   opacity: 0.5;
+  font-family: "sans-serif",Lato;
 }
 
 /*for wrapper*/
@@ -142,6 +143,7 @@ header h1 {
   flex-basis: 50%;
   font-weight: bold;
   font-size: 38px;
+  letter-spacing: 1px;
 }
 .header-menus {
   flex-basis: 45.5%;
@@ -262,7 +264,7 @@ footer {
   letter-spacing: 1px;
 }
 .recent-posts li:nth-child(2)>h2 {
-  padding-bottom: 12px;
+  padding-bottom: 10px;
 }
 .recent-posts-list li {
   font-size: 11px;
