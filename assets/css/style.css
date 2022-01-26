@@ -90,11 +90,16 @@ body {
 a { 
   display: inline-block;
   text-decoration: none; 
+  color: #ffffff;
 }
 
 li {
   display: inline-block;
   list-style-type: none;
+}
+/* for font styling  */
+.font-faint {
+  opacity: 0.8;
 }
 
 /*for wrapper*/
@@ -106,6 +111,7 @@ li {
 /* for container  */
 .container {
   background-color: #000000;
+  color: #ffffff;
 }
 
 /*=================================
@@ -119,16 +125,13 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid #ffffff;
 }
-header a {
-  color: #ffffff;
-}
 header h1 {
   flex-basis: 50%;
   font-weight: bold;
-  font-size: 37px;
+  font-size: 38px;
 }
 .header-menus {
-  flex-basis: 46%;
+  flex-basis: 45.5%;
 }
 .header-menus ul {
   width: 100%;
@@ -136,9 +139,9 @@ header h1 {
 }
 .header-menus ul li {
   flex-basis: 20%;
-  padding:10px 5px;
+  padding:10px 15px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
 }
 .header-menus ul li a {
   letter-spacing: 3px;
@@ -157,20 +160,20 @@ header h1 {
 
 .banner {
   width: 100%;
-  padding: 20px 0;
+  padding: 19px 0;
 }
 .banner-menus ul {
   display: flex;
   justify-content: space-between;
-  width: 55%;
+  width: 51%;
 }
 .banner-menus ul li {
-font-size: 12px;
+font-size: 11px;
 padding: 8px 10px;
 text-align: left;
 }
 .banner-menus ul li a {
-  color: #ffffff;
+  letter-spacing: 1px;
 }
 .banner-menus ul li:hover {
   background-color: #8FD0A6;
@@ -202,11 +205,70 @@ text-align: left;
   footer styling starts here
 =================================*/ 
 
-
-
-
-
-
+footer {
+  width: 100%;
+  padding: 5px 0;
+  border-top: 1px solid #ffffff;
+  margin-top: 19px;
+  
+}
+.recent-posts {
+  display: flex;
+  padding: 9px 0;
+  column-gap: 36px;
+  border-bottom: 1px solid #ffffff;
+}
+.recent-posts li {
+  flex-basis: 25%;
+  width: 100%;
+}
+.recent-posts li:last-child {
+  border: none;
+}
+.recent-posts li h2 {
+  padding: 15px 0;
+  font-size: 15px;
+}
+.recent-posts-list li {
+  font-size: 11px;
+  border-bottom: 1px solid #ffffff;
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+.popular-tags-list ,.flicker-gallary-pics{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.popular-tags-list a {
+  background-color: #8FD0A6;
+  font-size: 11px;
+  padding: 9px 12px; 
+}
+.flicker-photo {
+  flex-basis: 22%;
+}
+.footerbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 22px 0;
+}
+.footer-icons a{
+  text-indent: -9999px;
+}
+.footer-icons a::before {
+  content: "\f1a0";
+  font-family: "fontAwesome";
+  float: right;
+  text-indent: 0;
+  padding: 5px;
+  border-radius: 100%;
+  color: #000000;
+  background-color: #ffffff;
+}
 
  /*=================================
   footer styling ends here
