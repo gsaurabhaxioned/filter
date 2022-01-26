@@ -113,7 +113,20 @@ li {
   background-color: #000000;
   color: #ffffff;
 }
-
+/* hamburger styling here  */
+.header-ham,.banner-ham,.cross{
+  text-indent: -9999px;
+  display: none;
+}
+.header-ham::before,.banner-ham::before,.cross::before {
+  content: "\f0c9";
+  font-family: "fontAwesome";
+  float: right;
+  text-indent: 0;
+}
+.cross::before {
+  content: "\f00d";
+}
 /*=================================
   Header styling starts here
 =================================*/
@@ -300,6 +313,22 @@ footer {
   color: #000000;
   background-color: #ffffff;
 }
+.footer-icons a:nth-child(2):before {
+  content: "\f099";
+}
+.footer-icons a:nth-child(3):before {
+  content: "\f0d2";
+}
+.footer-icons a:nth-child(4):before {
+  content: "\f17d";
+}
+.footer-icons a:nth-child(5):before {
+  content: "\f0e1";
+}
+.footer-icons a:nth-child(6):before {
+  content: "\f09a";
+}
+
 
  /*=================================
   footer styling ends here
@@ -315,6 +344,12 @@ footer {
 }
 .banner-menus ul,.banner-menus ul li {
   width: 100%;
+}
+.header-ham,.banner-ham {
+  display: inline-block;
+}
+.header-menus,.banner-menus {
+  display: none;
 }
 .popular-tags-list a {
   width: 100%;
