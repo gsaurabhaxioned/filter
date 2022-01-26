@@ -99,7 +99,7 @@ li {
 }
 /* for font styling  */
 .font-faint {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 /*for wrapper*/
@@ -136,7 +136,7 @@ header {
   display: flex;
   padding: 40px 0;
   justify-content: space-between;
-  border-bottom: 1px solid #ffffff;;
+  border-bottom: 1px solid #343634;;
 }
 header h1 {
   flex-basis: 50%;
@@ -232,8 +232,7 @@ text-align: left;
 
 footer {
   width: 100%;
-  padding-top: 5px;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #343634;
   margin-top: 19px;
   
 }
@@ -247,8 +246,8 @@ footer {
 .recent-posts {
   display: flex;
   padding: 9px 0;
-  column-gap: 36px;
-  border-bottom: 1px solid #ffffff;
+  column-gap: 41px;
+  border-bottom: 1px solid #343634;
 }
 .recent-posts li {
   flex-basis: 25%;
@@ -258,15 +257,16 @@ footer {
   border: none;
 }
 .recent-posts li h2 {
-  padding: 15px 0;
+  padding: 21px 0;
   font-size: 15px;
+  letter-spacing: 1px;
 }
 .recent-posts li:nth-child(2)>h2 {
-  padding-bottom: 3px;
+  padding-bottom: 12px;
 }
 .recent-posts-list li {
   font-size: 11px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #343634;
   padding: 10px 0;
   letter-spacing: 1px;
 }
@@ -278,7 +278,7 @@ footer {
 .popular-tags-list a {
   background-color: #8FD0A6;
   font-size: 11px;
-  padding: 9px 12px; 
+  padding: 8px 12px; 
 }
 .flicker-photo {
   flex-basis: 22%;
